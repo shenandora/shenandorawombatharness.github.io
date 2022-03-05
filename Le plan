@@ -1,10 +1,7 @@
-Élements de Final Fantasy V
-Les objets
-Les magies
-Magie blanc
-Magie noir
-Magie blue
-Les autres compétences
+//Élements de Final Fantasy V
+const objets = [objetsDeSoinHP, objetsDeSoinAlteration, objetsDeLancer, objetsDeBoire, objetsDeCombiner];
+Les magies = [magieBlanc, magieNoir, magieBlue, necromancie];
+Les autres compétences = [danser, chanter, 
 Danser
 Chanter
 
