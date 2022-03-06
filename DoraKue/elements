@@ -1,0 +1,13 @@
+const objetsConsJp = [["やくそう", "薬草 "], ["かぎ", "鍵"], ["たいまつ", "松明"], ["せいすい", "聖水"],
+["キメラのつばさ", "キメラの翼"];
+//消費可能なアイテム : objets consommables/usables
+const objetsConsFr = ["Herbe", "Clé", "Torche", "Eau bénite",
+"Aile de chimère"];
+const objEquiJp = [["りゅうのうろこ", "竜の鱗"], ["せんしのゆびわ", "戦士の指輪"], ["しのくびかさり", "死の首飾り"], ["のろいのベルト", "呪いのベルト"];
+const objEquiFr = ["Écaille de dragon", "Bague de guerrier", "Collier de mort", "Ceinture serrée"]
+const objArmJp =
+const objArmFr =
+const objCleJp
+const objCleFr
+const objGraiJp = [["ちからのたね", "力の種"], ["まもりのたね", "守りの種"], ["すばやさのたね", "素早さの種"], ["いのちのきのみ", "命の木の実"], ["ふしぎなきのみ", "不思議な木の実"];
+const objGraiFr = ["Graine de puissance", "Graine de défense", "Graine de vitesse", "Noix de vie", "Noix étrange"]
