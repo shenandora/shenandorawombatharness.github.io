@@ -6,10 +6,14 @@ const objetsConsFr = ["Herbe", "Clé", "Torche", "Eau bénite",
 const objSpeJp = [["ようせいのふえ", "妖精の笛"], ["おうじょのあい", "王女の愛"];
 const objSpeFr = ["Flûte des fées", "Amour de la princesse"]
 const objEquiJp = [["りゅうのうろこ", "竜の鱗"], ["せんしのゆびわ", "戦士の指輪"], ["しのくびかさり", "死の首飾り"], ["のろいのベルト", "呪いのベルト"];
-const objEquiFr = ["Écaille de dragon", "Bague de guerrier", "Collier de mort", "Ceinture serrée"]
+//そうび可能0なアイテム
+const objEquiFr = ["Écaille de dragon", "Bague des guerriers", "Collier de mort", "Ceinture maudite"]
 const objArmJp =
+//そうび可能1なアイテム
 const objArmFr =
 const objCleJp = [["ぎんのたてごと", "銀の竪琴"], ["たいようのいし", "太陽の石"], ["あまぐものつえ", "雨雲の杖"], ["ロトのしるし", "ロトの印"], ["にじのしずく", "虹の滴"];
+//重要アイテム
 const objCleFr = ["Harpe argentée", "Pierre solaire", "Bâton nébuleux", "Signe de Loto", "Goutte d'arc-en-ciel"];
 const objGraiJp = [["ちからのたね", "力の種"], ["まもりのたね", "守りの種"], ["すばやさのたね", "素早さの種"], ["いのちのきのみ", "命の木の実"], ["ふしぎなきのみ", "不思議な木の実"];
+//たね¤きなみ
 const objGraiFr = ["Graine de puissance", "Graine de défense", "Graine de vitesse", "Noix de vie", "Noix étrange"]
