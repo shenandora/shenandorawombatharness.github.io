@@ -20,10 +20,9 @@ const objGraiJp = [["ちからのたね", "力の種"], ["まもりのたね", "
 //たね¤きなみ
 const objGraiFr = ["Graine de puissance", "Graine de défense", "Graine de vitesse", "Noix de vie", "Noix étrange"];
 
-const tableauAff = document.getElementById("tableau");
 let donneesDeTableau;
 
 for (let i=0; i<objConsJp.length; i++) {
   donneesDeTableau+="<tr><td>"+objConsJp[i][0]+"<br><i>"+objConsJp[i][1]+"</i></td><td>"+objConsFr[i]+"</td></tr>"; }
 
-tableauAff.innerHTML = "<tr><th>Nom JP</th><th>Nom FR</th></tr>" + donneesDeTableau;
+document.getElementById.("tableau").innerHTML = "<tr><th>Nom JP</th><th>Nom FR</th></tr>" + donneesDeTableau;
