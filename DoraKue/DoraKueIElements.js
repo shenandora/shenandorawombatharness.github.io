@@ -10,7 +10,7 @@ const objArmeJp = [["たけざお", "竹竿"], ["こんぼう", "棍棒"], ["ど
 //装備アイテム
 const objArmeFr = ["Tige de bambou", "Gourdin", "Épée de cuivre", "Hache de fer", "Épée d'acier", "Épée de feu", "Épée de Loto"];
 const objArmuJp = [["ぬののふく", "布の服"], ["かわのふく", "革の服"], ["くさりかたびら", "鎖帷子"], ["てつのよろい", "鉄の鎧"], ["はがねのよろい", "鋼の鎧"], ["まほうのよろい", "魔法の鎧"], ["ロトのよろい", "ロトの鎧"]];
-const objArmuFr = ["Vêtement en tissue", "Vêtement en cuir", "Cotte de mailles", "Armure de fer", "Armure d'acier", "Armure magique", "Armure de Loto"];
+const objArmuFr = ["Vêtement en tissu", "Vêtement en cuir", "Cotte de mailles", "Armure de fer", "Armure d'acier", "Armure magique", "Armure de Loto"];
 const objBoucJp = [["かわのたて", "皮の盾"], ["てつのたて", "鉄の盾"], ["みかがみのたて", "水鏡の盾"]];
 const objBoucFr = ["Bouclier en cuir", "Bouclier d'acier", "Bouclier aqua-mirroir"];
 const objCleJp = [["ぎんのたてごと", "銀の竪琴"], ["たいようのいし", "太陽の石"], ["あまぐものつえ", "雨雲の杖"], ["ロトのしるし", "ロトの印"], ["にじのしずく", "虹の滴"]];
@@ -25,7 +25,7 @@ const tousFr = [objConsFr, objSpeFr, objAccFr, objArmeFr, objArmuFr, objBoucFr, 
 
 let donneesDeTableau = "<tr><th>Nom JP</th><th>Traduction FR</th></tr>"
 
-for (let i=0; i<tousJp.length; i++) {for (let j=0; i<tousJp[i].length; j++) {
+for (let i=0; i<tousJp.length; i++) {for (let j=0; j<tousJp[i].length; j++) {
 donneesDeTableau+="<tr><td>"+tousJp[i][j][0]+"<br><i>("+tousJp[i][j][1]+")</i></td><td>"+tousFr[i][j]+"</td></tr>";}}
 
 document.getElementById("tableau").innerHTML = donneesDeTableau;
