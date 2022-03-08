@@ -19,10 +19,13 @@ const objCleFr = ["Harpe argentée", "Pierre solaire", "Bâton nébuleux", "Sign
 const objGraiJp = [["ちからのたね", "力の種"], ["まもりのたね", "守りの種"], ["すばやさのたね", "素早さの種"], ["いのちのきのみ", "命の木の実"], ["ふしぎなきのみ", "不思議な木の実"]];
 //たね¤きなみ
 const objGraiFr = ["Graine de puissance", "Graine de défense", "Graine de vitesse", "Noix de vie", "Noix étrange"];
+const tousJp = [objConsJp, objSpeJp, objAccJp, objArmeJp, objArmuJp, objBoucJp, objGraiJp];
+const tousFr = [objConsFr, objSpeFr, objAccFr, objArmeFr, objArmuFr, objBoucFr, objGraiFr];
+
 
 let donneesDeTableau = "<tr><th>Nom JP</th><th>Traduction FR</th></tr>"
 
-for (let i=0; i<objConsJp.length; i++) {
-donneesDeTableau+="<tr><td>"+objConsJp[i][0]+"<br><i>("+objConsJp[i][1]+")</i></td><td>"+objConsFr[i]+"</td></tr>"; }
+for (let i=0; i<tousJp.length; i++) {for (let j=0; i<tousJp[i].length; j++) {
+donneesDeTableau+="<tr><td>"+tousJp[i][j][0]+"<br><i>("+tousJp[i][j][1]+")</i></td><td>"+tousFr[i][j]+"</td></tr>";}}
 
 document.getElementById("tableau").innerHTML = donneesDeTableau;
